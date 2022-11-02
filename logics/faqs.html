@@ -1,0 +1,372 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./logics css/faqs.css">
+    <link rel="stylesheet" href="./logics css/index.css">
+</head>
+<style>
+    .navs{
+        position: relative;
+    }
+    .dropfaq {
+        position: absolute;
+        top: 120px !important;
+        z-index: 99999;
+    }
+
+    @media (max-width:1100px) {
+        .navsupport {
+            position: absolute;
+            top: 120px !important;
+        }
+    }
+
+</style>
+
+<body>
+
+
+    <div class="navs">
+        <div class="dropdown">
+            <button onclick="closeNav(event)">X</button>
+            <a href="signIn.html">LOGIN</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="faqs.html">FAQS</a>
+            <a href="track.html">TRACK ORDER</a>
+            <a href="blog.html">BLOG</a>
+        </div>
+        <div class="nav_margin">
+            <button class="open" onclick="myOpen(event)">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="nav_img"> <a href="index.html"><img src="./images/heynigeria logo.png" alt=""></a></div>
+
+            <nav id="navContent">
+                <a href="#" onclick="openMenu(event)"> Menus</a>
+                <a href="sign_up.html"> SignUp</a>
+                <!-- <a href=""> <button>Shop</button> </a> -->
+                <button class="destory" onclick="myDestory(event)">&times;</button>
+            </nav>
+        </div>
+    </div>
+
+    <div class="hassel-general-container">
+        <div class="hassel-sub-container">
+            <p><span>Enjoy Hassle Free Shipping With HEYLogistics </span>
+            <div class="image"><img src="./images/plane.svg" alt=""></div>
+            </p>
+
+        </div>
+
+    </div>
+    <div class="general-text-container1">
+        <h2 id="marginh2">STANDARD AIRFREIGHT FROM USA TO NIGERIA:</h2>
+        <div class="con">
+            <p> Air freight from USA to Nigeria takes 3-15 business days. </p>
+
+            <p>Our consignment leaves at 12pm on Friday of every week, and then undergoes</p>
+
+            <p>TSA check over the weekend to be airlifted on Monday of the following week.</p>
+        </div>
+
+
+        <div class="con">
+            <p>Please note that counting starts from the Monday when it is Airlifted not Friday when it leaves our
+                Warehouse.</p>
+
+            <p>Our weekly cut off is on Thursday 12PM.</p>
+
+            <p> Any package arriving at our facility after the cut off time meets up with the next freighting cycle i.e
+                the
+                following week.</p>
+        </div>
+
+        <h2 id="marginh2">SHIPPING FEE & MINIMUM WEIGHT:</h2>
+        <div class="con">
+            <p> Shipping fee is $3.99/per pound, shipping fees covers Customs duties, taxes, VAT, and clearing fees.</p>
+
+            <p> Packages below 5lb are charged at a fixed flat rate of $30.</p>
+        </div>
+
+        <div class="con">
+            <p> Volume Weight applies to charges in a case where the Volume weight is Higher than the Actual Weight.</p>
+
+
+            <p> For an accurate shipping cost, take measurement of the length width and height of the package and divide
+                it
+                by 166.</p>
+
+            <p>e.g 23.00 x 21.00 x 21:00 / 166</p>
+        </div>
+
+        <h2 id="marginh2">SHIPPING GADGETS & ELECTRONICS:</h2>
+        <div class="con">
+            <p>$80 per New Cell phone</p>
+
+            <p>$80 per New Laptop </p>
+
+            <p>$30 per used phone </p>
+
+            <p>$80 PS5 </p>
+
+            <p>$8 per lbs for used laptops</p>
+        </div>
+
+        <p>We require actual purchase receipt to ship new gadgets and Electronics.</p>
+        <h2 id="marginh2">HEYLogistics Door to Door Delivery Fees</h2>
+        <p>Door to Door Delivery within Lagos is charged at $10. Door to Door delivery is optional.</p>
+    </div>
+    <hr>
+    <div class="general-text-container2">
+
+
+        <h2 id="marginh2">Priority AIRFREIGHT FROM USA TO NIGERIA:</h2>
+        <div class="con">
+            <p>Delivery fees are charged at $10. Delivery fees are optional.</p>
+
+            <p>Air freight from USA to Nigeria takes 3-7 business days.</p>
+
+            <p>Our consignment leaves at 12pm on Friday of every week, and then undergoes TSA check over the weekend</p>
+
+            <p>to be airlifted on Monday of the following week.</p>
+        </div>
+
+        <p>Please note that counting starts from the Monday when it is Airlifted not Friday when it leaves our
+            Warehouse.</p>
+        <p>
+        <p>Our weekly cut off is on Thurs 12PM. </p>
+
+        <p> Any package arriving at our facility after the cut off time meets up with the next freighting cycle i.e the
+            following week. </p>
+        </p>
+        <h2 id="marginh2">SHIPPING FEE & MINIMUM WEIGHT:</h2>
+        <div class="con">
+            <p> Shipping fee is $10/per pound, shipping fees covers Customs duties, taxes, VAT, and clearing fees. </p>
+
+            <p> Packages below 12lb are charged at a fixed flat rate of $150. </p>
+        </div>
+        <div class="con">
+            <p>Volume Weight applies to charges in a case where the Volume weight is Higher than the Actual Weight. </p>
+
+            <p>For an accurate shipping cost, take measurement of the length width and height of the package and divide
+                it
+                by 166. </p>
+
+            <p>e.g 23.00 x 21.00 x 21:00 / 166</p>
+        </div>
+        <h2 id="marginh2">SHIPPING GADGETS & ELECTRONICS:</h2>
+        <div class="con">
+            <p>$120 per New Cell phone</p>
+
+            <p>$150 per New Laptop </p>
+
+            <p>$50 per used phone </p>
+
+            <p> $100 PS5</p>
+
+            <p>$15 per lbs for used laptops</p>
+        </div>
+        <p>We require actual purchase receipt to ship new gadgets and Electronics.</p>
+        <h2 id="marginh2">HEYLogistics Door to Door Delivery Fees:</h2>
+        <div class="con">
+            <p>Door to Door Delivery within Lagos is charged at $10. Door to Door delivery is optional. </p>
+
+            <p>Here are items we cannot legally ship due to customs laws and airline restrictions</p>
+        </div>
+        <!-- <ul id="ul1"> -->
+        <ol>
+            <li>Laptop Battery</li>
+            <li>Cigars</li>
+            <li>Vape</li>
+            <li>Tobacco</li>
+            <li>Vaping Accessories</li>
+            <li>Ammunition & Accessories</li>
+            <li>Stunt Gun</li>
+            <li>Guns paintball guns</li>
+
+
+        </ol>
+        <!-- </ul> -->
+    </div>
+    <hr>
+    <div class="general-text-container3">
+
+
+        <h2 id="marginh2">AIR-FREIGHT FROM UNITED KINGDOM TO NIGERIA:</h2>
+        <div class="con">
+            <p>Airfreight from the United Kingdom to Nigeria takes </p>
+
+            <p> 3/5 Business days to Cities in Lagos and 5/7days to cities outside Lagos.</p>
+        </div>
+        <p>Weekly Cut-off</p>
+        <div class="con">
+            <p>HEYLogistics Consignment leaves every Friday to be airlifted on Monday of the following week. </p>
+
+            <p> Counting starts from Monday when it is Airlifted not Friday when it leaves our Warehouse. </p>
+
+            <p> weekly cut off is Thursday 12PM, Any package arriving at our</p>
+
+            <p>facility after the cut off time meets up with the next freighting cycle i.e the following week.</p>
+        </div>
+
+        <h2 id="marginh2">SHIPPING FEE & MINIMUM WEIGHT:</h2>
+        <p>Shipping rate from London to Lagos is £5.80/kg, shipping fees covers Customs duties, taxes, VAT, and clearing
+            fees.</p>
+        <p>Items below 10kg is charged at a flate rate of £70 and £25 Handling Charge for items above 10kg</p>
+        <div class="con">
+            <p> Need Assistance? Contact Us </p>
+
+            <p> Our Customer Service Team is ready to answer your questions. </p>
+
+            <p>Send us an email on hello@heylogistics.co </p>
+        </div>
+        <p>
+            • You may be asked to opt in for insurance for certain type of products and value. </p>
+        <p>Call: 09045604669</p>
+        <div class="con" id="mtop">
+            <p> Mon - Fri: 9 am - 6 pm CT </p>
+
+            <p>Sat - Sun: 10 am - 2 pm CT</p>
+
+        </div>
+    </div>
+    <div id="mar"></div>
+    <!-- =================== FOOTER SECTION================ -->
+    <div class="footer_main">
+
+        <div class="lin"></div>
+
+        <div class="footer_link">
+            <div class="footer_link_margin">
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Product</h2>
+                        <div class="links">
+                            <a href="">Air Cargo</a>
+                            <a href="">e-Commerce</a>
+                            <a href="">Personal Shopper</a>
+                            <a href="">API</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Resources</h2>
+                        <div class="links">
+                            <a href="">Explore us</a>
+                            <a href="">Blogs</a>
+                            <a href="">Afillate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Company</h2>
+                        <div class="links">
+                            <a href="">People</a>
+                            <a href="">Career</a>
+                            <a href="">Terms of service</a>
+                            <a href="">Partners</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Get Our App</h2>
+                        <div class="links">
+                            <a href=""><img src="./images/Store.png" alt=""></a>
+                            <a href=""><img src="./images/Store2.png" alt=""></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Reach Us</h2>
+                        <div class="links">
+                            <a href="">hello@heylogistics.co</a>
+                            <a href="tel: +23 ">+234 904 560 4669</a>
+                            <div class="social_link">
+                                <h2>Connect on Socials</h2>
+                                <div class="social_icon">
+                                    <a href=""><img src="./images/Facebook.svg" alt=""></a>
+                                    <a href=""><img src="./images/Twitter.svg" alt=""></a>
+                                    <a href=""><img src="./images/Instagram.svg" alt=""></a>
+                                    <a href=""><img src="./images/LinkedIn.svg" alt=""></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="policy_container">
+                <span>Privacy Policy </span>
+                <span>© 2021 HeyLogistics</span>
+            </div>
+            <div class="hel" style="border: 1px solid rgba(211, 211, 211, 0.11); width:100%"></div>
+            <p class="last">All trucking services are provided by HEY Logistics is a licensed property. All transactions
+                are subject to our terms of service.</p>
+        </div>
+    </div>
+    <!-- =================== END OF FOOTER SECTION================ -->
+
+</body>
+<script>
+ function openMenu(a) {
+        var navCon = document.querySelector(".dropdown");
+        var navMain1 = a.target.parentElement;
+        console.log(navMain1);
+        console.log(navCon, "navcon")
+        if (!navCon.classList.contains("increase")) {
+            navCon.classList.add("increase")
+        }
+        if (navMain1.classList.contains("hello")) {
+            navMain1.classList.remove("hello")
+        }
+
+    }
+
+    function closeNav(a) {
+        var navCon = document.querySelector(".dropdown");
+        console.log(navCon);
+
+        if (navCon.classList.contains("increase")) {
+
+            navCon.classList.remove("increase")
+        }
+    }
+
+    function myOpen(a) {
+        var navMain = document.querySelector("#navContent")
+        var navCon = document.querySelector(".dropdown");
+        navMain.classList.toggle("hello")
+        if (navCon.classList.contains("increase")) {
+            navCon.classList.remove("increase")
+        }
+    }
+
+    function myDestory(a) {
+        var navMain = a.target.parentElement
+        if (navMain.classList.contains("hello")) {
+            navMain.classList.remove("hello")
+        }
+
+    }
+</script>
+
+</html>

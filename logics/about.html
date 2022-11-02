@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./logics css/about.css">
+    <link rel="stylesheet" href="./logics css/index.css">
+</head>
+<style>
+    .ship{
+        width: 90%;
+        margin: auto;
+    }
+    .ship p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #185fad;
+    margin:  0 0 30px 0;
+
+    }
+
+    .ship a{
+        color: white;
+        padding: 4px 2px ;
+        border-radius: 10px;
+        font-size: 18px;
+        /* font-weight: 1000; */
+        background-color: #185fad;
+    }
+    .navs {
+        background-color: #2F2F2F !important;
+    }
+</style>
+
+<body>
+    <div class="navs">
+        <div class="dropdown">
+            <button onclick="closeNav(event)">X</button>
+            <a href="signIn.html">LOGIN</a>
+            <a href="">ABOUT US</a>
+            <a href="faqs.html">FAQS</a>
+            <a href="track.html">TRACK ORDER</a>
+            <a href="">BLOG</a>
+        </div>
+        <div class="nav_margin">
+            <button class="open" onclick="myOpen(event)">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="nav_img"> <a href="index.html"><img src="./images/heynigeria logo.png" alt=""></a></div>
+
+            <nav id="navContent">
+                <a href="#" onclick="openMenu(event)"> Menus</a>
+                <a href="sign_up.html"> SignUp</a>
+                <button class="destory" onclick="myDestory(event)">&times;</button>
+            </nav>
+        </div>
+    </div>
+
+    <div class="about_container">
+        <div class="about_heading">
+            <h1>ABOUT AIR FRIGHT</h1>
+        </div>
+
+        <div class="about_image_section">
+            <div class="about_bg"> </div>
+        </div>
+    </div>
+
+    <div class="text_content">
+        <div class="text_margin">
+            <div class="section">
+                <p>HEYLogistics assist you in managing the complexity of international logistics by providing all of the
+                    services you require in one place. Based primarily in Nigeria and Texas, USA, with branch in United
+                    Kingdom and China, we have a global network of partners ready and waiting and ready to ensure that
+                    your
+                    shipment arrives on time, every time, even to your doorstep.</p>
+            </div>
+
+            <div class="section">
+                <p>
+                    For businesses owners and individuals all over the world, we offer Airfreight, Oceanfreight, and
+                    auto
+                    shipping.
+                    We even go above and beyond to assist businesses and individuals by providing a "shop for me
+                    (Personal
+                    Shopper)" service in which we do the purchasing and transportation for you while you relax and
+                    handle
+                    other aspects of your daily activities.
+                </p>
+            </div>
+            <div class="section">
+                <p>Because of the success of our company's solid team structure, we have grown rapidly.</p>
+                <p>We've been successful because our company's goals are straightforward: honesty, dependability, and
+                    innovation.</p>
+            </div>
+            <div class="section">
+                <p>
+                    You have chosen one of Africa's most respected International Freight Forwarding organizations
+                    committed to the safe and timely movement of cargo by sea, air, and road by choosing HEY Logistics
+                    Ltd.
+                </p>
+                <p>Our global transportation capabilities are backed up by specialized personnel who are well-versed in
+                    Customs procedures.</p>
+            </div>
+
+            <div class="section">
+                <p>HEYLogistics has created a world-class decentralized global cargo delivery platform that will revolutionize how people ship goods around the world and we can't wait to Deliver Simple Smiles to your doorstep.</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="about_text_container">
+        <div class="about_text_margin">
+
+            <div class="about_text_flex">
+                <div class="flex_item"><img src="./images/about_main (2).png" alt=""></div>
+                <div class="flex_item">
+                    <div class="content">
+                        <p>
+                            Dedicated Customer Service is on hand to assist you every step of the way until your
+                            packages arrive safely at their destination.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="scope_container">
+        <div class="scope_margin">
+            <div class="scope_flex">
+                <div class="scope_item">
+                    <div class="scope_advice">
+                        <p>
+                           With HEY Logistics as your logistics partner you can be rest assured of on time delivery quick servie and extra care and attention towards your packages
+                        </p>
+                    </div>
+
+                </div>
+                <div class="scope_item">
+                    <img src="./images/about_main (3).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <div class="ship">
+        <p> Ship with us today <a href="sign_up.html">Sign Up</a></p>
+    </div>
+
+    <!-- =================== FOOTER SECTION================ -->
+    <div class="footer_main">
+
+        <div class="lin"></div>
+
+        <div class="footer_link">
+            <div class="footer_link_margin">
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Product</h2>
+                        <div class="links">
+                            <a href="">Air Cargo</a>
+                            <a href="">e-Commerce</a>
+                            <a href="">Personal Shopper</a>
+                            <a href="">API</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Resources</h2>
+                        <div class="links">
+                            <a href="">Explore us</a>
+                            <a href="">Blogs</a>
+                            <a href="">Afillate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Company</h2>
+                        <div class="links">
+                            <a href="">People</a>
+                            <a href="">Career</a>
+                            <a href="">Terms of service</a>
+                            <a href="">Partners</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Get Our App</h2>
+                        <div class="links">
+                            <a href=""><img src="./images/Store.png" alt=""></a>
+                            <a href=""><img src="./images/Store2.png" alt=""></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="galler">
+                        <h2>Reach Us</h2>
+                        <div class="links">
+                            <a href="">hello@heylogistics.co</a>
+                            <a href="tel: +23 ">+234 904 560 4669</a>
+                            <div class="social_link">
+                                <h2>Connect on Socials</h2>
+                                <div class="social_icon">
+                                    <a href="facebook.com"><img src="./images/Facebook.svg" alt=""></a>
+                                    <a href="twitter.com"><img src="./images/Twitter.svg" alt=""></a>
+                                    <a href="instagram.com"><img src="./images/Instagram.svg" alt=""></a>
+                                    <a href="linkedIn.com"><img src="./images/LinkedIn.svg" alt=""></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="policy_container">
+                <span>Privacy Policy </span>
+                <span>© 2021 HeyLogistics</span>
+            </div>
+            <div class="hel" style="border: 1px solid rgba(211, 211, 211, 0.11); width:100%"></div>
+            <p class="last">All trucking services are provided by HEY Logistics is a licensed property. All transactions
+                are subject to our terms of service.</p>
+        </div>
+    </div>
+    <!-- =================== END OF FOOTER SECTION================ -->
+</body>
+<script>
+  function openMenu(a) {
+        var navCon = document.querySelector(".dropdown");
+        var navMain1 = a.target.parentElement;
+        console.log(navMain1);
+        console.log(navCon, "navcon")
+        if (!navCon.classList.contains("increase")) {
+            navCon.classList.add("increase")
+        }
+        if (navMain1.classList.contains("hello")) {
+            navMain1.classList.remove("hello")
+        }
+
+    }
+
+    function closeNav(a) {
+        var navCon = document.querySelector(".dropdown");
+        console.log(navCon);
+
+        if (navCon.classList.contains("increase")) {
+
+            navCon.classList.remove("increase")
+        }
+    }
+
+    function myOpen(a) {
+        var navMain = document.querySelector("#navContent")
+        var navCon = document.querySelector(".dropdown");
+        navMain.classList.toggle("hello")
+        if (navCon.classList.contains("increase")) {
+            navCon.classList.remove("increase")
+        }
+    }
+
+    function myDestory(a) {
+        var navMain = a.target.parentElement
+        if (navMain.classList.contains("hello")) {
+            navMain.classList.remove("hello")
+        }
+
+    }
+</script>
+
+</html>
